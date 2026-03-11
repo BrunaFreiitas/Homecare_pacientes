@@ -1,2 +1,25 @@
-# Homecare_pacientes
-Sistema simples em Python para captação e cadastro de pacientes para atendimento Home Care. Permite registrar dados essenciais como nome, idade, CPF, endereço, hipótese diagnóstica, dispositivos utilizados, grau de complexidade e cuidados necessários. Projeto voltado para organização inicial de pacientes e gestão básica de informações clínicas.
+# Sistema de Captação de Pacientes Home Care
+
+Sistema simples em Python para cadastro de pacientes
+para atendimento domiciliar.
+
+## Funções
+
+- cadastro de paciente
+- idade
+- nome da mãe
+- CPF
+- endereço
+- hipótese diagnóstica
+- dispositivos utilizados
+- grau de complexidade
+- descrição de cuidados
+
+## Tecnologias
+
+Python
+
+## Objetivo
+
+Projeto desenvolvido para portfólio na área de tecnologia
+com foco em soluções para saúde.

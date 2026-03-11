@@ -1,4 +1,16 @@
+import json
+import os
+
 pacientes = []
+
+if os.path.exists("pacientes.json"):
+    with open("pacientes.json", "r") as f:
+        pacientes = json.load(f)
+
+if pacientes:
+    print("Pacientes já cadastrados:")
+    for p in pacientes:
+        print(p)
 
 while True:
 
@@ -40,6 +52,8 @@ while True:
         break
 
 print("\nPacientes cadastrados:")
+
+json.dump(pacientes, open("pacientes.json", "w"), indent=4)
 
 for p in pacientes:
     print(p)
